@@ -1,0 +1,13 @@
+# Versions actually used (shared ml venv, Python 3.13.13, CUDA 13 wheels).
+ultralytics==8.4.177
+torch==2.12.1
+torchvision==0.27.1
+polars==2.0.0
+onnx==1.23.2
+onnxruntime-gpu==1.29.0
+ml-dtypes==0.6.0
+opencv-python-headless==5.0.0.93
+numpy==2.5.2
+pillow==12.3.0
+pytest==9.1.1
+# Optional, installed into ./.pydeps with --target (not the venv): tensorrt==11.4.0.106

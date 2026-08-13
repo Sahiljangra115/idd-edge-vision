@@ -1,0 +1,15 @@
+data/
+runs/
+exports/
+exports_smoke/
+weights/
+logs/
+.pydeps/
+*.engine
+*.calib
+.env
+__pycache__/
+.pytest_cache/
+results/smoke_*
+demo/*.mp4
+results/*_preds.json
