@@ -1,6 +1,6 @@
 # Using the detector on NOIR (optional)
 
-NOIR (`/home/ladliju/Developer/Noir/tracker.py`) has `HumanDetector.detect(frame)` returning a list of
+NOIR (`Noir/tracker.py`, separate project) has `HumanDetector.detect(frame)` returning a list of
 `Detection(label, bbox=(x1,y1,x2,y2), confidence, kind)`. Distance and steering code only read `bbox`
 and `kind`, so any object with a `detect(frame)` method of that shape can replace it.
 
